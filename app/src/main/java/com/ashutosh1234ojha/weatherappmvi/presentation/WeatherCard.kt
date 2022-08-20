@@ -53,7 +53,7 @@ fun WeatherCard(state: WeatherState, color: Color, modifier: Modifier=Modifier) 
                 )
                 Spacer(modifier = Modifier.height(16.dp))
                 Text(
-                    text = "$data.weatherType.weatherDesc",
+                    text = "${data.weatherType.weatherDesc}",
                     color = Color.White, fontSize = 20.sp
                 )
                 Spacer(modifier = Modifier.height(32.dp))
